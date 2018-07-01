@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+
+}
+
+.style {
+    background-color: rgba(224, 224, 224, 0.5);
+    box-shadow: 7px 5px 15px rgb(211, 208, 208);
+    margin: 2px;
+    padding-bottom: 4px;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px beige;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    text-shadow: 2px 2px 2px #9e9e9e;
+    font-family: 'Abril Fatface';
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-family: 'Abril Fatface';
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(10, 10, 10);
+    padding-top: 10px;
+}
+
+table {
+    
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgba(224, 224, 224, 0.7);
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 4em;
+}
+
+input[type=submit] {
+    margin: 20px auto;
+    background-color: #FFFFFFFF;
+    border: none;
+    color: #707070FF;
+    font-family: "Fredericka the Great", cursive;
+    font-size: 15px;
+    font-weight: bolder;
+    text-shadow: text-shadow: 2px 2px 2px beige;
+    padding: 3px;
+    box-shadow: 3px 3px 8px #939393FF;
+    transition: all 0.1s;
+}
+
+input[type=submit]:hover {
+    transform: translate(2px, -2px);
+    background-color: #EDEDEDFF;
+    color: #707070FF;
+}
+
+
+input[type=submit]:focus {
+    background-color: #4FAF9BFF;
+    color: white;
+}
+
+#paint-area {
+    padding: 15px;
+}
+
+submit {
+    height: 20px;
+}
